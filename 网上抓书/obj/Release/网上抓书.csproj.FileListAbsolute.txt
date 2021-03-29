@@ -1,0 +1,14 @@
+D:\CSharp\网上抓书\网上抓书\bin\Release\网上抓书.exe.config
+D:\CSharp\网上抓书\网上抓书\bin\Release\网上抓书.exe
+D:\CSharp\网上抓书\网上抓书\bin\Release\网上抓书.pdb
+D:\CSharp\网上抓书\网上抓书\bin\Release\HtmlAgilityPack.dll
+D:\CSharp\网上抓书\网上抓书\bin\Release\HtmlAgilityPack.pdb
+D:\CSharp\网上抓书\网上抓书\bin\Release\HtmlAgilityPack.xml
+D:\CSharp\网上抓书\网上抓书\obj\Release\网上抓书.MainForm.resources
+D:\CSharp\网上抓书\网上抓书\obj\Release\网上抓书.Properties.Resources.resources
+D:\CSharp\网上抓书\网上抓书\obj\Release\网上抓书.csproj.GenerateResource.cache
+D:\CSharp\网上抓书\网上抓书\obj\Release\网上抓书.csproj.CoreCompileInputs.cache
+D:\CSharp\网上抓书\网上抓书\obj\Release\网上抓书.csproj.CopyComplete
+D:\CSharp\网上抓书\网上抓书\obj\Release\网上抓书.exe
+D:\CSharp\网上抓书\网上抓书\obj\Release\网上抓书.pdb
+D:\CSharp\网上抓书\网上抓书\obj\Release\网上抓书.csprojAssemblyReference.cache

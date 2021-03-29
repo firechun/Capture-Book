@@ -1,0 +1,5 @@
+2020-05-12 16:11:06.470: http://www.momxs.com/momx.asp?bid=47963&id=6552186 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36

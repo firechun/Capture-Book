@@ -1,0 +1,72 @@
+2020-12-16 15:40:14.979: http://www.momxs.com/momx.asp?bid=50854&id=7627027 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:00:01.518: http://www.momxs.com/momxs.asp?id=7623471 System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:00:31.591: http://www.momxs.com/momxs.asp?id=7623471 System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-12-16 16:02:33.545: http://www.momxs.com/momx.asp?bid=50827&id=7623478 System.Net.WebException: 请求被中止: 操作超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-12-16 16:09:27.502: http://www.momxs.com/momxs.asp?id=7623485 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:14:56.856: http://www.momxs.com/momx.asp?bid=50827&id=7623485 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:21:02.592: http://www.momxs.com/momx.asp?bid=50827&id=7623489 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:26:21.905: http://www.momxs.com/momx.asp?bid=50827&id=7623490 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:31:56.271: http://www.momxs.com/momx.asp?bid=50827&id=7623493 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:32:58.410: http://www.momxs.com/momxs.asp?id=7622499 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:38:16.617: http://www.momxs.com/momxs.asp?id=7623474 System.Net.WebException: 请求被中止: 操作超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-12-16 16:40:36.541: http://www.momxs.com/momx.asp?bid=50817&id=7622527 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:43:55.029: http://www.momxs.com/momxs.asp?id=7623478 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:50:02.114: http://www.momxs.com/momx.asp?bid=50827&id=7623482 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-12-16 16:55:45.503: http://www.momxs.com/momxs.asp?id=7623487 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36

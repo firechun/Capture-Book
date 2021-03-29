@@ -1,0 +1,13 @@
+2021-03-02 17:24:55.248: http://www.momxs.com/momxs.asp?id=7634613 System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2021-03-02 17:32:14.241: http://www.momxs.com/momx.asp?bid=51186&id=7634651 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36

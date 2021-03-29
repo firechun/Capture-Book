@@ -1,0 +1,405 @@
+2020-04-14 08:36:25.771: http://www.momxs.com/momxs.asp?id=1505420 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-04-14 08:42:14.707: http://www.momxs.com/momxs.asp?id=1430600 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-04-14 08:43:19.755: http://www.momxs.com/momxs.asp?id=1506021 System.Net.WebException: 请求被中止: 操作超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 09:10:50.469: http://www.momxs.com/momxs.asp?id=1504712 System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-04-14 14:57:35.118: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 14:57:57.884: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 14:58:17.707: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 14:58:21.637: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:00:30.018: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:00:56.844: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:00:57.888: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:11.054: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:40.406: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:40.666: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:43.544: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:44.041: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:44.320: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:44.619: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:44.893: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:45.988: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:46.271: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:46.538: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:46.799: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:47.075: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:47.357: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:47.620: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:48.736: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:49.249: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:49.507: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:50.002: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:50.504: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:50.773: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:52.922: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:53.404: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:53.704: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:53.980: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:54.280: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:54.714: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:54.989: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:55.237: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:55.507: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:56.005: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:56.263: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:01:56.531: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:02.034: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:02.520: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:02.838: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:03.123: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:03.365: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:03.630: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:03.929: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:04.195: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:05.307: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:14.380: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:14.873: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:15.161: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:15.424: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:15.665: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:15.932: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:16.213: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:16.484: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:16.724: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:16.991: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:17.276: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:17.755: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:18.007: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:18.247: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:19.315: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:20.405: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:21.503: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:21.991: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:22.262: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:23.410: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:23.881: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:24.128: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:24.404: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:24.675: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:25.965: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:26.466: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:26.746: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:27.004: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:27.486: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:27.766: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:28.030: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:28.271: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:28.714: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:28.991: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:30.371: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:32.255: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:33.521: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:34.003: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:34.262: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:34.541: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:34.794: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:35.047: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:35.541: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:36.023: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:36.281: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:38.442: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:38.932: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:39.192: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:39.450: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:39.704: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:39.968: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:40.211: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:41.268: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:41.749: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:44.287: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:44.768: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:45.037: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:46.586: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:46.853: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:47.130: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:47.427: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:47.862: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:48.126: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:49.144: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:49.633: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:50.789: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:51.251: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:51.530: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:52.026: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:52.271: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:54.788: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:55.254: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:55.535: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:55.820: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:56.073: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:56.346: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:02:56.630: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:05:00.741: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-14 15:05:21.204: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29

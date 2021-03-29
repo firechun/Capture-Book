@@ -1,0 +1,69 @@
+2020-04-13 14:36:45.514: System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadToEnd()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 32
+2020-04-13 15:00:40.492: http://www.momxs.com/momx.asp?bid=13438&id=1433517 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadToEnd()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 32
+2020-04-13 16:00:03.743: http://www.momxs.com/momx.asp?bid=13438&id=1433692 System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-04-13 16:00:07.068: http://www.momxs.com/momxs.asp?id=1433693 System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-13 16:00:10.454: http://www.momxs.com/momxs.asp?id=1433694 System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 204.12.213.162:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-13 16:00:12.129: http://www.momxs.com/momxs.asp?id=1433695 System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 204.12.213.162:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-13 16:00:25.656: http://www.momxs.com/momxs.asp?id=1433696 System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 204.12.213.162:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-13 16:17:31.116: http://www.momxs.com/momxs.asp?id=1433559 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-04-13 16:18:28.704: http://www.momxs.com/momxs.asp?id=1433562 System.Net.WebException: 请求被中止: 操作超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-13 16:39:27.398: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding)
+2020-04-13 16:41:50.530: http://www.momxs.com/momxs.ap?id=1524207 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-13 16:48:10.952: http://www.momxs.com/momxs.ap?id=1524208 System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 29
+2020-04-13 17:07:11.928: http://www.momxs.com/momxs.asp?id=1433569 System.Net.WebException: 操作已超时。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
+2020-04-13 17:11:29.233: http://www.momxs.com/momx.asp?bid=13438&id=1433583 System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer(Char[] userBuffer, Int32 userOffset, Int32 desiredChars, Boolean& readToUserBuffer)
+   在 System.IO.StreamReader.Read(Char[] buffer, Int32 index, Int32 count)
+   在 网上抓书.HttpUtil.GetWebContent(String url, Encoding encoding) 位置 D:\CSharp\网上抓书\网上抓书\HttpUtil.cs:行号 36
